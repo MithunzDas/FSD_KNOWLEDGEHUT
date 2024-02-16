@@ -1,0 +1,32 @@
+ /* div h1{
+            color: red;
+        } */
+
+        /* .container .redText{
+            color: blue;
+        } */
+
+        /* .container #myHeader{
+            color: chartreuse;
+        } */
+
+        .container > #myHeader{
+            color: chartreuse;
+        }
+
+        div + h1{
+            color: coral;
+        }
+
+        .myText1 + .myText2{
+            color: deeppink;
+        }
+
+        .myText0 + .myText1{
+            color: greenyellow;
+        }
+
+        input[type="text"] input[type="email"] {
+            border: 2px solid blue; 
+        }
+        
