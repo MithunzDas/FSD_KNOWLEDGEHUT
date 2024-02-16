@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Targetting Element</title>
+
+    <style>
+        /* div h1{
+            color: red;
+        } */
+
+        /* .container .redText{
+            color: blue;
+        } */
+
+        /* .container #myHeader{
+            color: chartreuse;
+        } */
+
+        .container > #myHeader{
+            color: chartreuse;
+        }
+
+        div + h1{
+            color: coral;
+        }
+
+        .myText1 + .myText2{
+            color: deeppink;
+        }
+
+        .myText0 + .myText1{
+            color: greenyellow;
+        }
+
+        input[type="text"] input[type="email"] {
+            border: 2px solid blue; 
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1 id="myHeader" class="redText">
+            Hello World !!!
+        </h1>
+        <div class="myText0" >
+            <h1 id="myHeader">Hi Mithun</h1>
+        </div>
+        
+        <div class="myText1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem quia iusto tenetur debitis, reiciendis adipisci expedita magni ex molestiae atque iure unde ullam enim aut porro esse provident animi beatae nihil! Veniam, vero necessitatibus asperiores facilis repudiandae repellat animi saepe inventore sunt quidem illum architecto dolore omnis similique pariatur ab.
+        </div>
+        <div class="myText2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reprehenderit, eius voluptatem quasi ratione ipsam numquam illo aut, error sint enim fuga illum totam nemo quos quo eveniet beatae quaerat dicta repellat. Atque, consequuntur rem!
+        </div>
+        <div>
+            <input type="text" name="username" id="username">
+            <input type="email" name="email" id="email">
+        </div>
+    </div>
+
+    <h1 class="myFooter">
+        Lorem ipsum dolor sit amet.
+    </h1>
+</body>
+</html>
