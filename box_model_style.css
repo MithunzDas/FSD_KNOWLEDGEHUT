@@ -1,0 +1,14 @@
+.container{
+    background-color: aqua;
+    padding: 12px 24px 36px 48px;
+    border: 5px solid red;
+    margin: 12px;
+}
+.myText{
+    background-color: blue;
+    padding: 12px 24px 36px 48px;
+    border-top: 24px solid brown;
+    border-bottom: 20px solid green;
+    border-radius: 20px;
+    margin: 24px;
+}
